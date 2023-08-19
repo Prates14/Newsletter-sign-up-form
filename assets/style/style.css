@@ -15,21 +15,71 @@ body {
     align-items: center;
 }
 
+p {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+label {
+    font-size: 12px;
+}
+
+h1, p, label {
+    font-family: 'Roboto', sans-serif;
+    color: hsl(234, 29%, 20%);
+}
+
 .container {
-    background-color: hsl(234, 29%, 20%);
-    margin: auto;
+    background-color: hsl(235, 18%, 26%);
+    margin: 62.6px;
     width: 1440px;
-    height: 700px;
-    padding: 150px;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-content {
     background-color: hsl(0, 0%, 100%);
     max-height: 100%;
-    max-width: 100%;
-    width: 1000px;
+    width: 900px;
+    height: 500px;
+    border-radius: 20px;
+    padding: 20px 20px 20px 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: stretch;
+    position: relative;
+}
+
+.image {
+    height: 460px;
+    margin: 0 auto;
+    padding-left: 130px;
+}
+
+.content-text {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    gap: 30px;
+    width: 320px;
+}
+
+.itens-list li {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.mail {
+    display: flex;
+    flex-direction: column;
 }
 /* .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); } */
@@ -55,14 +105,3 @@ The designs were created to the following widths:
 - Charcoal Grey: hsl(235, 18%, 26%)
 - Grey: hsl(231, 7%, 60%)
 - White: hsl(0, 0%, 100%)
-
-## Typography
-
-### Body Copy
-
-- Font size (paragraph): 16px
-
-### Font
-
-- Family: [Roboto](https://fonts.google.com/specimen/Roboto)
-- Weights: 400, 700 */
