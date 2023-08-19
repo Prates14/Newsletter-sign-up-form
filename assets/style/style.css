@@ -81,6 +81,32 @@ h1, p, label {
     display: flex;
     flex-direction: column;
 }
+
+#sub-email {
+    height: 40px;
+    width: 100%;
+    padding: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: hsl(231, 7%, 60%);
+    color: hsl(234, 29%, 20%);
+}
+
+button {
+    height: 40px;
+    width: 100%;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(234, 29%, 20%);
+}
+
+button:hover {
+    color: hsl(234, 29%, 20%);
+    background: linear-gradient(hsl(357, 98%, 65%), hsl(7, 100%, 61%)100%);
+    font-family: 'Roboto', sans-serif;
+}
 /* .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); } */
 
