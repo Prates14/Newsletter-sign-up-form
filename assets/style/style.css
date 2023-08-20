@@ -83,7 +83,7 @@ h1, p, label {
 }
 
 #sub-email {
-    height: 40px;
+    height: 45px;
     width: 100%;
     padding: 5px;
     border-style: solid;
@@ -93,7 +93,7 @@ h1, p, label {
 }
 
 button {
-    height: 40px;
+    height: 45px;
     width: 100%;
     cursor: pointer;
     border: none;
@@ -103,9 +103,9 @@ button {
 }
 
 button:hover {
-    color: hsl(234, 29%, 20%);
-    background: linear-gradient(hsl(357, 98%, 65%), hsl(7, 100%, 61%)100%);
+    background: linear-gradient(to right, hsl(350, 100%, 59%), hsl(4, 100%, 67%)100%);
     font-family: 'Roboto', sans-serif;
+    box-shadow: 2px 4px 10px 2px hsla(4, 100%, 67%, 0.593);
 }
 /* .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); } */
