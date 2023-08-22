@@ -45,7 +45,7 @@ h1, p, label {
 .main-content {
     background-color: hsl(0, 0%, 100%);
     max-height: 100%;
-    width: 900px;
+    width: 800px;
     height: 500px;
     border-radius: 20px;
     padding: 20px 20px 20px 60px;
@@ -58,7 +58,7 @@ h1, p, label {
 .image {
     height: 460px;
     margin: 0 auto;
-    padding-left: 130px;
+    padding-left: 50px;
 }
 
 .content-text {
@@ -86,6 +86,7 @@ h1, p, label {
     height: 45px;
     width: 100%;
     padding: 5px;
+    margin-top: 7px;
     border-style: solid;
     border-radius: 5px;
     border-color: hsl(231, 7%, 60%);
@@ -108,11 +109,46 @@ button:hover {
     box-shadow: 2px 4px 10px 2px hsla(4, 100%, 67%, 0.593);
 }
 
+/* layout success-active */
 
+.success-content {
+    background-color: hsl(0, 0%, 100%);
+    max-height: 100%;
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    padding: 40px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
 
+.success-content .content-text {
+    gap: 20px;
+}
 
+.success-content p {
+    font-size: 12px;
+}
 
+/* layout error-states */
 
+.error-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.error-content span {
+    color: hsl(4, 100%, 67%);
+    font-size: 12px;
+}
+
+.error-email {
+    border-color: hsl(4, 100%, 77%);
+    color: hsl(4, 100%, 67%);
+    background-color: hsl(4, 100%, 94%);
+}
 /* # Front-end Style Guide
 
 ## Layout
