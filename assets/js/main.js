@@ -12,6 +12,7 @@ class EnivoDoEmail {
             
             if(validaEmail === true) {
                 window.location.href = 'success.html';
+                const page = window.successPage(this.input);
             } else {
                 
             }
@@ -38,6 +39,11 @@ class EnivoDoEmail {
         }
 
         return resultado;
+    }
+
+    successPage(nomeEmail) {
+        const email = document.querySelector('b');
+        email.innerHTML = nomeEmail.value;
     }
 }
 const validandoEmail = new EnivoDoEmail();
