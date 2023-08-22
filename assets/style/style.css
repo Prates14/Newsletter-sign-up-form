@@ -131,7 +131,7 @@ button:hover {
     font-size: 12px;
 }
 
-/* layout error-states */
+/* ---------- layout error-states ---------- */
 
 .error-content {
     display: flex;
