@@ -1,3 +1,25 @@
-@media (max-whidth: 375px) {
-    
+@media (max-width: 375px) {
+    body, .container {
+        background: none;
+    }
+
+    .main-content {
+        display: flex;
+        flex-direction: column-reverse;
+        max-width: 375px;
+        height: 100vh;
+        border-radius: 0;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .main-content .image {
+        display: none;
+    }
+
+    .main-content .image-2 {
+        display: inline;
+        top: 0;
+        height: 100%;
+    }
 }

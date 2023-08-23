@@ -1,0 +1,30 @@
+@media (max-width: 375px) {
+    body, .container {
+        background: none;
+    }
+
+    .success-content {
+        max-width: 375px;
+        height: 100vh;
+        border-radius: 0;
+        padding: 20px;
+    }
+
+    .success-content .content-text {
+        gap: 40px;
+        width: 100%;
+    }
+
+    .success-content p {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    button {
+        height: 55px;
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 110px;
+    }
+
+}
